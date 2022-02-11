@@ -144,7 +144,6 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
   let array6 = [lastValue, `The numbers ${testDynamicArray[0]},${testDynamicArray[1]},${testDynamicArray[2]},${testDynamicArray[3]},${testDynamicArray[4]} have a product of ${lastValue}.`];
   return array6;
 }
-multiplyAnyArray();
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyAnyArray(testDynamicArray);
 
